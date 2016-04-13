@@ -1,3 +1,4 @@
-puts aaa
+str = "Hello World"
+puts str
 
 
