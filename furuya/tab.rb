@@ -7,12 +7,11 @@ c=0
 a.each { |x|
 
 File.open(x) do |file|
-file.each_line do |y|
-c=c+y.count("	")
-    end
+
+c=c+file.read.count("	")
+   
   end
 
 puts File.basename(x).ljust(35) + c.to_s.rjust(10) 
-
 c=0
 }
