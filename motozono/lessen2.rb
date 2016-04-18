@@ -1,2 +1,2 @@
-0.upto(10){ |i| puts '*' * i }
-10.downto(0){ |i| puts '*' * i }
+1.upto(10){ |i| puts '*' * i }
+10.downto(1){ |i| puts '*' * i }
